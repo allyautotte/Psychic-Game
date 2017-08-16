@@ -4,7 +4,7 @@ var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 
 var wins = 0;
 var losses = 0;
-var guesses = 9;
+var guesses = 10;
 var guessesLeft = 10;
 var guessedLetters = [];
 var letterToGuess = null;
