@@ -5,7 +5,7 @@ var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 var wins = 0;
 var losses = 0;
 var guesses = 9;
-var guessesLeft = 9;
+var guessesLeft = 10;
 var guessedLetters = [];
 var letterToGuess = null;
 
@@ -29,8 +29,8 @@ var updateGuessesSoFar = function() {
 };
 // Function will be called when we reset everything
 var reset = function() {
-  totalGuesses = 9;
-  guessesLeft = 9;
+  totalGuesses = 10;
+  guessesLeft = 10;
   guessedLetters = [];
 
   updateLetterToGuess();
