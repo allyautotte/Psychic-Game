@@ -59,7 +59,7 @@ document.onkeyup = function(event) {
                 reset();
             }
         }else if(guessesLeft == 0){
-            // Then we will loss and we'll update the html to display the loss 
+            // Update the html to display the loss 
             losses++;
             document.querySelector('#losses').innerHTML = "Losses: " + losses;
             alert("Sorry, you are not a psychic!");
